@@ -17,7 +17,7 @@ import streamlit as st
 model = Summarizer()
 kw_model = KeyBERT(model='all-mpnet-base-v2')
 # kw_model = KeyBERT()
-nltk.download('averaged_perceptron_tagger')
+nltk.download('popular')
 nltk.download('wordnet')
 
 # Distractors from Wordnet
