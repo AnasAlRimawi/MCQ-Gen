@@ -12,6 +12,7 @@ import re
 import random
 import streamlit as st
 
+nltk.download()
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 model = Summarizer()
