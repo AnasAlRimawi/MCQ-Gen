@@ -13,7 +13,6 @@ import random
 import streamlit as st
 
 nltk.download('all')
-nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 model = Summarizer()
 kw_model = KeyBERT(model='all-mpnet-base-v2')
